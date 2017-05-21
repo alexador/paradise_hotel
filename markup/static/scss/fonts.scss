@@ -1,0 +1,62 @@
+/* Your custom fonts here */
+
+ // Example
+
+@font-face {
+    font-family: 'DaxCondensed';
+    src: url('../fonts/daxcondensedblack-webfont.eot');
+    src: url('../fonts/daxcondensedblack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/daxcondensedblack-webfont.woff2') format('woff2'),
+         url('../fonts/daxcondensedblack-webfont.woff') format('woff'),
+         url('../fonts/daxcondensedblack-webfont.ttf') format('truetype');
+    font-weight: 900;       
+    font-style: normal;   
+}
+
+@font-face {
+    font-family: 'DaxCondensed';
+    src: url('../fonts/daxcondensedlight-webfont.eot');
+    src: url('../fonts/daxcondensedlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/daxcondensedlight-webfont.woff2') format('woff2'),
+         url('../fonts/daxcondensedlight-webfont.woff') format('woff'),
+         url('../fonts/daxcondensedlight-webfont.ttf') format('truetype');
+    font-weight: 300;       
+    font-style: normal;   
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: 300;       
+    font-style: normal;   
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: 400;       
+    font-style: normal;   
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype');
+    font-weight: 700;       
+    font-style: normal;   
+}
+
+
+// Var for using custom font
+// $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;

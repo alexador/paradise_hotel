@@ -1,0 +1,29 @@
+// File for scss-vars.
+// For example: main colors, paddings and so on.
+//== Colors
+$brand-primary: #32a2e3;
+$text-color: #373535;
+$link-color: $text-color;
+$link-hover-color: #000;
+$link-hover-decoration: underline;
+$body-bg: #ebebeb;
+$nav-bg: #191919;
+
+
+$font-family-base: "Open Sans", Helvetica, Arial, sans-serif;
+$font-size-base: 13px;
+
+// $icon-font-path: '../fonts/';
+
+$btn-border-radius-base:  0;
+$btn-border-radius-large: 0;
+$btn-border-radius-small: 0;
+
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+// $grid-float-breakpoint:     $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+// $grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+
+$main-nav-collapse: 820px;
